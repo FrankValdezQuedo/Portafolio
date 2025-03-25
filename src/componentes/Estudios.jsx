@@ -9,7 +9,7 @@ const Educacion = () => {
       periodo: "2019 - 2024",
       institucion: "Universidad Nacional José Faustino Sánchez Carrión",
       descripcion: [
-        "Finalicé mis estudios en Ingeniería de Sistemas en la Universidad Privada Domingo Savio en junio de 2024, donde adquirí una sólida base en desarrollo de software.",
+        "Finalicé mis estudios en Ingeniería Informática en la Universidad Nacional José Faustino Sánchez Carrión en Diciembre del 2024, donde adquirí una sólida base en desarrollo de software.",
         "Esta formación me ha preparado para adaptarme y contribuir de manera eficiente en proyectos tecnológicos.",
         "Soy un ingeniero informático especializado en el desarrollo backend con Java Spring y frontend con React, combinando potencia y versatilidad para crear soluciones tecnológicas efectivas",
       ],
