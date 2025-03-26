@@ -11,7 +11,7 @@ const Contact = () => {
   // Función para manejar el clic en el botón de email
   const handleEmailClick = () => {
     // Puedes personalizar el asunto y cuerpo del correo
-    const subject = "Contacto desde tu portafolio";
+    const subject = "Prueba";
     const body = "Hola Fran, me gustaría contactarte respecto a...";
 
     window.location.href = `mailto:${emailAddress}?subject=${encodeURIComponent(
