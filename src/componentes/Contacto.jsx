@@ -6,7 +6,7 @@ const Contact = () => {
   const [formStatus, setFormStatus] = useState(null);
 
   // Puedes cambiar este email por el tuyo
-  const emailAddress = "fran24111999@gmail.com";
+  const emailAddress = "fran.valdez.quedo@gmail.com";
 
   // Función para manejar el clic en el botón de email
   const handleEmailClick = () => {

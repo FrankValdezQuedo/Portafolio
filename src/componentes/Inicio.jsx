@@ -97,20 +97,26 @@ const Inicio = () => {
           </div>
         </div>
 
-        {/* Imagen de perfil */}
-        <div className="relative flex-shrink-0">
-          {/* Círculo decorativo */}
-          <div className="absolute inset-0 bg-[#1D3557]/20 rounded-full -m-6"></div>
-
+        {/* Imagen de perfil - Diseño más elegante */}
+        <div className="flex-shrink-0">
           <div className="relative">
-            <img
-              src={Perfil}
-              alt="Fran Valdez - Desarrollador Full Stack"
-              className="w-64 h-64 object-cover rounded-full border-4 border-[#457B9D] shadow-xl"
-            />
+            {/* Marco elegante */}
+            <div className="absolute inset-0 bg-gradient-to-br from-[#457B9D] to-[#1D3557] p-1 rounded-md transform rotate-1 scale-105 shadow-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-tr from-[#457B9D] to-[#1D3557] p-1 rounded-md transform -rotate-1 scale-105 shadow-xl"></div>
 
-            {/* Círculo decorativo */}
-            <div className="absolute top-0 left-0 w-full h-full border-8 border-dashed border-[#1D3557] rounded-full animate-spin-slow"></div>
+            {/* Contenedor de la imagen */}
+            <div className="relative bg-[#0F1020] p-2 rounded-md shadow-2xl">
+              <img
+                src={Perfil}
+                alt="Fran Valdez - Desarrollador Full Stack"
+                className="w-64 h-80 object-cover rounded-md"
+              />
+
+              {/* Detalles decorativos */}
+              <div className="absolute top-0 left-0 w-full h-full border border-[#457B9D]/30 rounded-md"></div>
+              <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-[#457B9D] rounded-sm transform rotate-12"></div>
+              <div className="absolute -top-2 -left-2 w-6 h-6 bg-[#1D3557] rounded-sm transform -rotate-12"></div>
+            </div>
           </div>
         </div>
       </div>

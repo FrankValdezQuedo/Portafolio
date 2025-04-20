@@ -12,7 +12,8 @@ const Footer = () => {
             Fran Valdez
           </h3>
           <p className="text-[#A8DADC] text-sm">
-            <span className="text-[#457B9D]">✉</span> Frank24111999@email.com
+            <span className="text-[#457B9D]">✉</span>{" "}
+            fran.valdez.quedo@gmail.com
           </p>
         </div>
 
