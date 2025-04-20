@@ -69,7 +69,7 @@ const Inicio = () => {
               GitHub
             </a>
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1Wolbeb8fQgfYxUfL7cIhRYU2T6Q0FLYG/view?usp=sharing"
               className="flex items-center gap-2 bg-[#1D3557] hover:bg-[#457B9D] text-white font-medium py-3 px-6 rounded-lg transition-all transform hover:scale-105 shadow-lg"
             >
               <Download size={20} />
