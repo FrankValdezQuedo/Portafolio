@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Email from "../images/email.jpg";
 import Unjfsc from "../images/unjfsc.png";
 import Tienda from "../images/tienda.png";
+import Eccomerce from "../images/eccomerce.png";
 
 const Projects = () => {
   const [hoveredId, setHoveredId] = useState(null);
@@ -38,6 +39,16 @@ const Projects = () => {
       image: Tienda,
       link: "https://github.com/FrankValdezQuedo/Proyecto2024",
       year: "2021",
+    },
+    {
+      id: 4,
+      title: "Carrito de compras para e-commerce",
+      description:
+        "Este proyecto demuestra un caso completo de carrito de compras implementado con arquitectura moderna de React, ideal como base para un e-commerce real o como referencia para aprender patrones avanzados de gestión de estado y flujos de usuario.",
+      tags: ["React", "CSS", "Api", "JavaScript"],
+      image: Eccomerce,
+      link: "https://consumo-de-apis-con-react-two.vercel.app/",
+      year: "2025",
     },
   ];
 
